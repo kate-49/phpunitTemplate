@@ -23,4 +23,9 @@ final class CalculatorTest extends TestCase
         $this->assertEquals(3, $result);
     }
 
+    public function testSubtract()
+    {
+        $result = $this->calculator->subtract(5,2);
+        $this->assertEquals(3,$result);
+    }
 }
