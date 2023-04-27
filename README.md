@@ -1,6 +1,7 @@
 To download this repo:
 1. Clone it `git clone {repo ssh}`
-2. Download the dependencies `npm install`
+2. Make sure you have phpunit installed locally composer require --dev phpunit/phpunit ^10
+3. Download the dependencies `npm install`
 
 To run the tests:
 `npm test` 
