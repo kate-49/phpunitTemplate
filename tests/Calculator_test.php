@@ -23,4 +23,15 @@ final class CalculatorTest extends TestCase
         $this->assertEquals(3, $result);
     }
 
+    public function testSubtract()
+    {
+        $result = $this->calculator->subtract(5,2);
+        $this->assertEquals(3,$result);
+    }
+
+    public function testMultiply()
+    {
+        $result = $this->calculator->multiply(5,2);
+        $this->assertEquals(10,$result);
+    }
 }

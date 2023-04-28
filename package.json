@@ -14,7 +14,7 @@
   },
   "homepage": "https://github.com/kate-49/phpunitTemplate#readme",
   "scripts" : {
-    "test" : "./vendor/bin/phpunit tests/CalculatorTest.php"
+    "test" : "./vendor/bin/phpunit tests/Calculator_test.php"
   },
   "autoload": {
     "classmap": [
